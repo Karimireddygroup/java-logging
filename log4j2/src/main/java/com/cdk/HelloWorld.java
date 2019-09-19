@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.cdk;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,8 +17,11 @@ public class HelloWorld {
         }*/
 
         // with Java 8, we can do this, no need to check the log level
-        while (true)//test rolling file
-            logger.debug("hello {}", () -> getNumber());
+        while (true) {//test rolling file
+            //logger.debug("hello {}", () -> getNumber());
+        	//System.out.println("Hii");
+        	logger.info("MyCustomPropertiesFile");
+        }
 
     }
 

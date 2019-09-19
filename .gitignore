@@ -1,0 +1,12 @@
+
+log4j2/.classpath
+log4j2/.project
+*.prefs
+*.gz
+*.log
+*.class
+slf4j-logback/.classpath
+slf4j-logback/.project
+/target/
+/slf4j-logback/
+/log4j2/

@@ -1,4 +1,4 @@
-package com.mkyong;
+package com.cdk;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
